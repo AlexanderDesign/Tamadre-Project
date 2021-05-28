@@ -1,0 +1,120 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+span{
+    font-size: 20px;
+    color: rgb(255, 102, 0);
+    font-size: 30px;
+}
+
+p{
+    position: relative;
+    cursor: pointer;
+    color: white;
+    top: 15px;
+    font-size: 30px;
+}
+
+
+.img{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    top: 5px;
+    left: 1px;
+}
+
+
+/*Container*/
+#Chatbot__container{
+    box-shadow: -3px 5px 40px 10px rgba(0,0,0,0.36);
+    -webkit-box-shadow: -3px 5px 40px 10px rgba(0,0,0,0.36);
+    -moz-box-shadow: -3px 5px 40px 10px rgba(0,0,0,0.36);
+    position: absolute;
+    bottom: 10px;
+    left: 550px;
+    width: 350px;
+    height: 450px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(216, 222, 226);
+    border-radius: 20px;
+}
+
+#Chatbot__container:hover{
+    transition: .3s;
+    box-shadow: -3px 7px 45px 14px rgba(56, 56, 56, 0.36);
+    -webkit-box-shadow: -3px 7px 45px 14px rgba(56, 56, 56, 0.36);
+    -moz-box-shadow: -3px 7px 45px 14px rgba(56, 56, 56, 0.36);
+}
+
+/*End Container*/
+
+
+/*Microphone*/
+.voice-microphone{
+    background-color: #24293d;
+}
+#microphone{
+    position: relative;
+    width: 60px;
+    height: 55px;
+    top: 270px;
+    left: 130px;
+    cursor: pointer;
+    z-index: 1;
+    border: 1px solid rgb(212, 202, 202);
+    border-radius: 50%;
+    
+}
+#microphone:hover{
+    border-radius: 50%;
+    transition: .2s;
+    box-shadow: -3px 4px 30px 5px rgba(56, 56, 56, 0.36);
+    -webkit-box-shadow: -3px 4px 30px 5px rgba(56, 56, 56, 0.36);
+    -moz-box-shadow: -3px 3px 30px 5px rgba(56, 56, 56, 0.36);
+}
+
+.microphone__background-container{
+    position: relative;
+    background-color: #24293d;
+    width: 370px;
+    height: 80px;
+    top: -30px;
+    left: -10px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+/*End Microphone*/
+
+
+/*User Voice*/
+.voice{
+    position: relative;
+    padding: 10px;
+    height: 187px;
+}
+
+.uservoicetext{
+    position: relative;
+    width: auto;
+    float: left;
+    font-size: 18px;
+    background-color: rgb(255, 102, 0);
+    border-radius: 5%;
+}
+
+.uservoicetext2{
+    position: relative;
+    width: auto;
+    top: 30px;
+    float: right;
+    font-size: 18px;
+    background-color: rgba(172, 172, 172, 0.575);
+    border-radius: 10%;
+}
+
+/*End User Voice*/
+
